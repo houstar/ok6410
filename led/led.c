@@ -19,7 +19,7 @@ void led_on(int num)
 
 void led_off(int num)
 {
-	GPMDAT |= (~((0x1)<<(num-1)));
+	GPMDAT |= (((0x1)<<(num-1)));
 }
 void delay()
 {
