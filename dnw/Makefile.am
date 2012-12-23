@@ -1,0 +1,3 @@
+AUTOMAKE_OPTIONS=foreign
+bin_PROGRAMS=dnw2
+dnw2_SOURCES=dnw.c
